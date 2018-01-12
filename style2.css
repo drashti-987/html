@@ -1,0 +1,56 @@
+.shopping_cart{
+    position: relative;
+	width:100%;
+}
+img{
+	width:100%;
+}
+.cart_text_block{
+	background-color:pink;
+	position:absolute;
+	font-size:36px;
+	color:#2c4453;
+	top: 15px;
+    left: 15px;
+}
+.crumb{
+background-color: #f5f5f5;
+}
+
+.breadcrumb{
+	    margin-bottom: 0px;
+}
+
+.btn-default{
+
+    font-size: large;
+	border-color: #ef1111;
+}
+.qty{
+	text-align:center;
+}
+
+.media-left img{
+	height: 15px;
+    width: 20px;
+}
+@media(min-device-width:768px) and (max-device-width:1024px){
+
+}
+.banner 
+{
+	width:100%;
+	margin-top:0px;
+	position:relative;
+}
+
+.breadcrumb>.active {
+    color: #f90d21;
+}
+
+.table>thead{
+	background-color:#f9f9f9 !important;
+}
+table-striped>tbody>tr:nth-of-type(odd) {
+     background-color:white !important; 
+}
